@@ -59,13 +59,42 @@
             width: 250px;
         }
 
-        .main1 {
-            flex-grow: 1;
-            min-width: 600px;
+        .left1 h1{
+            text-align: center;
         }
+
+        .left1 img{
+            display: inline-block;
+            width: 250px;
+            border: solid rgb(126, 202, 136) 2px;
+        }
+
+        .main1 {
+      flex-grow: 1;
+          
+        }
+
+        .main1 .section1 h1{
+            margin-left: 90px;
+        }
+
+        .main1 .section1{
+            width: 330px;
+        }
+
+
+        
 
         .right1 {
             width: 250px;
+        }
+
+        .right1 h1 {
+           text-align: center;
+        }
+
+        .right1 img{
+            border: solid 2px rgb(169, 216, 223);
         }
 
         footer {
@@ -74,6 +103,41 @@
             background-color: #ddd;
             margin-top: 20px;
         }
+        .section1 .content-wrapper {
+    display: flex;
+    flex-direction: row;       
+    align-items: flex-start;
+    gap: 20px;
+    max-width: 550px;       
+}
+
+.section1 .content-wrapper p {
+    width: 250px;
+    flex-shrink: 0;
+    margin: 0;
+}
+
+.section1 .content-wrapper img {
+    width: 250px;
+    height: auto;
+    border-radius: 5px;
+    flex-shrink: 0;
+}
+
+
+
+.section1 .content-wrapper p {
+   width: 300px;
+}
+
+.section1 .content-wrapper img {
+    width: 500px;
+    height: auto;
+    border-radius: 5px;
+    margin-left: 25px;
+    border: solid rgb(169, 216, 223) 2px;
+}
+        
     </style>
 </head>
 <body>
@@ -93,23 +157,60 @@
       
     <div class="container">
         <aside class="left1">
+<h1>All About My Journey</h1>
+<p>Throughout all my high school years, I've taken programming classes and in this website I'll explain to you
+    the ups and downs, struggles, and fun I've had throughout the years!
+</p>
+<img src="step.png">
+<h1>Did I have fun?</h1>
+<p>I'll make sure to go into the specifics during about how much fun I had in the other
+    parts of the website, however, in general I would say that I definitely had fun!
+    My years in programming have been full of learning new things and applying them, which
+    I would say gives me a sense of satisfaction, especially this year!
+</p>
 
         </aside>
 
         <main class="main1">
+<section class="section1">
+    <h1>All About Me</h1>
+    <div class="content-wrapper">
+        <p>Hey! My name is Abdulai Bayoh. I'm 17 years old and I created this website to record the details
+            of the things I've gone through all throughout my 3 years of learning programming
+            at Horizon Science Academy! First thing you should know about me is that I'm a pretty
+            slow learner, so the things that I will show you truly do show how good my teachers
+            were and how dedicated they were to teach me things.
+        </p>
+        <img src="practice.jpg" class="img1">
+        <h1>Who were my teachers?</h1>
 
-        </main>
-
-        <aside class="right1">
-
-        </aside>
     </div>
-  </section>
+
+</section>
+</main>
+
+<aside class="right1">
+<h1>Why Programming?</h1>
+<p>To be honest, I didn't really have a choice... It wasnt my decision. However, I feel as though it was
+a great choice that was made for me.
+</p>
+<h1>Any Regrets?</h1>
+<p>Even though I'm not sure if I'll choose to pursue programming at a collegiate level. I definitely
+don't have any regrets, my teachers have all taught me well and treated me even better throughout
+my years, respect to all of them.
+</p>
+<img src="sun.png" alt="" width="250px">
+</aside>
+</div>
+</section>
 
 
-    <footer>
-        &copy; 2025 My Programming Journey
-    </footer>
+<footer>
+&copy; 2025 My Programming Journey
+</footer>
+
+</body>
+</html>
 
 <!-- Code injected by live-server -->
 <script>
