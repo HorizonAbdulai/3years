@@ -1,0 +1,130 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f5efe1;
+}
+
+header {
+    background-color: rgb(129, 194, 129);
+    color: white;
+    padding: 20px 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 32px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    margin-left: 20px;
+    padding: 8px 12px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: white;
+    color: rgb(129, 194, 129);
+}
+
+.container {
+    display: flex;
+    margin: 20px;
+    gap: 20px;
+}
+
+.left1, .main1, .right1 {
+    background-color: white;
+    border: 2px solid #ccc;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.left1, .right1 {
+    width: 250px;
+}
+
+.left1 h1,
+.right1 h1 {
+    text-align: center;
+}
+
+.left1 img {
+    width: 250px;
+    border: solid rgb(126, 202, 136) 2px;
+    display: block;
+    margin: 10px auto;
+}
+
+.right1 img {
+    border: solid 2px rgb(169, 216, 223);
+    display: block;
+    margin: 10px auto;
+}
+
+.main1 {
+    flex-grow: 1;
+}
+
+.section1 h1 {
+    margin-left: 90px;
+}
+
+.section1 .content-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 20px;
+    max-width: 550px;
+}
+
+.section1 .content-wrapper p {
+    width: 300px;
+    margin: 0;
+    flex-shrink: 0;
+}
+
+.section1 .content-wrapper img {
+    width: 500px;
+    height: auto;
+    border-radius: 5px;
+    margin-left: 25px;
+    border: solid rgb(169, 216, 223) 2px;
+}
+.section1 .growth-text {
+    width: 300px;
+    flex-shrink: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; 
+}
+
+.section1 .content-wrapper2 h1 {
+
+    margin-left: 65px;
+}
+
+.section1 .content-wrapper2 p {
+    margin: 0;
+}
+
+.content-wrapper2{
+    margin-bottom: 100px;
+}
+
+
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #ddd;
+    margin-top: 20px;
+}
